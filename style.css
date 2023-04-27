@@ -1,0 +1,84 @@
+.nav-color{
+    background-color:rgb(255, 255, 255) !important;
+}
+.home-text-color{
+    color:rgb(67, 1, 87) !important;
+}
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 8px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 40%;
+    background: #faf5f5;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 8px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  .tagc{
+    color:rgb(95, 7, 80)
+  }
+  .infoc{
+    color:rgb(79, 8, 88)
+  }
+body{
+    background:url("./assets/360_F_502193813_GRufyqcpJ10A1l9CqmktsyDybee7bxkg.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* Style buttons */
+.dbuttonsz{
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  cursor: pointer;
+  height:auto;
+  font-size:10px;
+}
+
+/* Darker background on mouse-over */
+.dbuttonsz:hover {
+  background-color: RoyalBlue;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33% ;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
